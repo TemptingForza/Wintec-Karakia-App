@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.group3.karakiaapp.fragments.HomeFragment"
+        android:label="@string/fragment_name_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_Home_to_karakiaFragment"
+            app:destination="@id/KarakiaFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_TOSFragment"
+            app:destination="@id/TOSFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_settingsFragment"
+            app:destination="@id/SettingsFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_searchFragment"
+            app:destination="@id/SearchFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_AboutFragment"
+            app:destination="@id/AboutFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_helpFragment"
+            app:destination="@id/HelpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/KarakiaFragment"
+        android:name="com.group3.karakiaapp.fragments.KarakiaFragment"
+        android:label="@string/fragment_name_karakia"
+        tools:layout="@layout/fragment_karakia">
+        <argument
+            android:name="karakiaId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/TOSFragment"
+        android:name="com.group3.karakiaapp.fragments.TOSFragment"
+        android:label="@string/fragment_name_tos"
+        tools:layout="@layout/fragment_tos" />
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.group3.karakiaapp.fragments.SettingsFragment"
+        android:label="@string/fragment_name_settings"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsFragment_to_TOSFragment"
+            app:destination="@id/TOSFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.group3.karakiaapp.fragments.SearchFragment"
+        android:label="@string/fragment_name_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_KarakiaFragment"
+            app:destination="@id/KarakiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.group3.karakiaapp.fragments.AboutFragment"
+        android:label="@string/fragment_name_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/HelpFragment"
+        android:name="com.group3.karakiaapp.fragments.HelpFragment"
+        android:label="@string/fragment_name_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

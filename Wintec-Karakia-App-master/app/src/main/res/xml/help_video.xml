@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <video id="home" name="How to use: Home" video="help_home"/>
+    <video id="search" name="How to use: Search" video="help_search"/>
+    <video id="karakia" name="How to use: Karakia" video="help_karakia"/>
+</resources>

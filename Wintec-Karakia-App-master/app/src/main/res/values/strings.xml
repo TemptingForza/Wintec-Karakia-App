@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Wintec Karakia App</string>
+    <string name="switch_video">Audio Only</string>
+    <string name="switch_torial">Show this again</string>
+    <string name="button_origins">View Karakia Origins</string>
+    <string name="switch_translate">English Lyrics</string>
+    <string name="fragment_name_home">Home</string>
+    <string name="fragment_name_karakia">Karakia Karaoke</string>
+    <string name="fragment_name_tos">Terms Of Service</string>
+    <string name="fragment_name_settings">Settings</string>
+    <string name="fragment_name_search">Karakia Search</string>
+    <string name="fragment_name_about">About Us</string>
+    <string name="fragment_name_help">Help Videos</string>
+    <string name="button_close">Close</string>
+    <string name="text_tos_header">Terms Of Service</string>
+    <string name="disclaimer_header">Disclaimer</string>
+    <string name="button_agree">Agree</string>
+    <string name="button_decline">Decline</string>
+    <string name="button_search">Search</string>
+    <string name="switch_searchTitles">Search Titles</string>
+    <string name="switch_searchWords">Search Words</string>
+    <string name="hint_search">Type to Search</string>
+    <string name="about_team_1">Rachata Triratjarasporn \nTeam Leader</string>
+    <string name="about_team_2">Aidan Reid \nCore Programmer</string>
+    <string name="about_team_3">Hamish Malins \nPresenter</string>
+    <string name="about_team_4">Josephy O Dwyer \nDocumentation &amp; Training</string>
+    <string name="about_team_5">Andrew Law \nDocumentation &amp; Animation</string>
+    <string name="about_team_6">Aadil Imran \nUI Implementation</string>
+    <string name="about_team_7">Jack Taylor \nPresenter &amp; Organiser</string>
+    <string name="about_header">About Us</string>
+    <string name="karakia_heading">Karakia (blessings)</string>
+    <string name="text_tos_content">The information provided in this mobile application is
+    for general purposes only. All information in this application
+    is provided in good faith, however, we make no representation
+    or warranty of any kind, expressed or implied, regarding
+    the accuracy, validity, reliability, availability or completeness
+    of any information on this application.\n\n
+    Under no circumstance shall we have any liability to you for any
+    for any loss or damage of any kind incurred as a result of use of
+    this mobile application. Your use of our mobile application
+    and your reliance on any information provided in out application
+    is solely at your own risk.</string>
+    <string name="disclaimer_content"> The Karakia app is a prototype version for Wintec
+    staff and students. It is intended that staff and students shall use this to get an
+    understanding of giving Karakia and information related to Karakia. Karakia for
+    Wintec - Te Pukenga may change accordingly making older versions redundant.
+    Wintec - Te Pukenga takes no responsibility of outdated information displayed
+    on the app</string>
+    <string name="button_source">More Info</string>
+</resources>
